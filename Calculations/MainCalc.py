@@ -119,7 +119,7 @@ def TABLES_DATA(data, d):
 
 
 def TABLES(tables):
-    root = tk.Tk()
+    root = tk.Toplevel()
     root.title("Таблицы расчетов")
     root.geometry('540x370')
     root.resizable(False, False)
